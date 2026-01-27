@@ -1,0 +1,109 @@
+Lesson 1: Introduction to HTML
+What is HTML?
+
+History and evolution of HTML
+
+Importance of HTML in web development
+
+Lesson 2: Basic Structure of an HTML Document
+Understanding <html>, <head>, <body>
+
+Explanation of DOCTYPE declaration
+
+Creating your first HTML document
+
+Lesson 3: Common HTML Tags
+Introduction to essential tags: (<p>, <h1> to <h6>, <a>, <div>, <span>)
+
+Structure and usage of each tag
+
+Lesson 4: Creating Links and Lists
+Internal and external links using the <a> tag
+
+Unordered and ordered lists: <ul>, <ol>, and <li>
+
+Lesson 5: Text Formatting Elements
+Bold, italics, and emphasis tags (<b>, <i>, <strong>, <em>)
+
+Understanding inline vs. block elements
+
+Lesson 6: Working with Quotes and Code
+Blockquote (<blockquote>) and inline quotes (<q>)
+
+Displaying code snippets: <code>, <pre>
+
+Lesson 7: Adding Images
+The <img> tag: src, alt, width, and height attributes
+
+Best practices for using images in HTML
+
+Lesson 8: Embedding Audio and Video
+Embedding multimedia with <audio> and <video> tags
+
+Understanding controls, sources, and autoplay for media
+
+Lesson 9: Creating Tables
+Structure of HTML tables: <table>, <tr>, <td>, <th>
+
+Using rowspan and colspan for table layout
+
+Lesson 10: Styling and Structuring Tables
+Adding borders, padding, and margins to tables
+
+Best practices for accessible and responsive tables
+
+Lesson 11: Introduction to HTML Forms
+Basic form structure: <form>, <input>, <label>
+
+Input types: text, email, password, submit, etc.
+
+Lesson 12: Advanced Form Elements
+Working with <textarea>, <select>, radio buttons, and checkboxes
+
+Understanding form attributes: action, method, name
+
+Lesson 13: Semantic HTML Elements
+Importance of semantic HTML for accessibility and SEO
+
+Introduction to semantic elements: <header>, <footer>, <section>, <article>, <nav>
+
+Lesson 14: Structuring Webpages with Semantic HTML
+Creating clean, structured HTML using semantic tags
+
+Practical examples of how to structure a webpage
+
+Lesson 15: Adding Metadata to HTML
+Understanding <meta> tags and their role
+
+Common meta attributes: charset, author, description
+
+Lesson 16: Basic SEO Practices for HTML
+Importance of <title> and heading tags for SEO
+
+Proper usage of alt attributes in images
+
+Lesson 17: Best Practices for Writing HTML
+Writing clean and organized code
+
+Tips for validation and troubleshooting common issues
+
+Lesson 18: Building a Simple Web Page
+Applying all learned concepts to create a multi-section web page
+
+Final project walkthrough for a basic, fully functional website
+
+Lesson 19: HTML5 New Features (Bonus)
+Overview of new elements like <figure>, <figcaption>, <time>, and <mark>
+
+Introduction to the <canvas> element for drawing graphics
+
+Additional Resources
+Reference for all HTML tags and attributes
+
+Free online tools for practicing and testing HTML
+
+This plan is designed to flow from basic concepts to more advanced topics, ensuring learners gradually build up their HTML skills in a logical sequence.
+
+
+
+Note: I will start completing this video series after the Full-stack MERN E-commerce Project
