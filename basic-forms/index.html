@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction to html forms</title>
+
+    <style>
+        body{
+            background-color: black;
+        }
+        form{
+            background-color: rgba(32, 203, 16, 0.614);
+            padding: 10px;
+            color: white;
+            font-size: large;
+        }
+
+        label , input{
+            display: block;
+            padding: auto;
+
+        }
+        input{
+            padding: 5px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <h1>Introduction to html Forms</h1>
+
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" placeholder="Enter your name here">
+
+        <lebel for="email">Email:</lebel>
+        <input type="email" name="email" id="email" placeholder="Enter your email here">
+        
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" placeholder="Enter your password">
+
+        <lebel for="age">Your age:</lebel>
+        <input type="number" name="age" id="age" placeholder="Enter your age here">
+
+        <lebel for="date">Birthdate:</lebel>
+        <input type="date" name="date" id="date" placeholder="Enter your BirthDate here">
+
+        <lebel for="time">Current time:</lebel>
+        <input type="time" name="time" id="time" placeholder="Enter the current time here">
+
+        <lebel for="datetime">Enter the date and time accordingly:</lebel>
+        <input type="datetime-local" name="datetime" id="datetime">
+
+        <lebel name="file">Select a photo of yourself:</lebel>
+        <input type="file" aria-label="">
+
+        <lebel name="month">Enter your Birth Month here:</lebel>
+        <input type="month" >
+
+        <lebel name=""> Wekend:</lebel>
+        <input type="week">
+
+        <lebel name="search">Search something</lebel>
+        <input type="search" name="search" id="search" placeholder="Type here to Search">
+
+        <lebel name="value">Value:</lebel>
+        <input step="10" type="range" value="100">
+
+        <lebel>I agree with all the terms and Conditions</lebel>
+        <input type="checkbox">
+        
+
+
+        <input style="border: 3px solid rgb(255, 0, 0); margin: 10px; padding:10px; cursor: pointer;" type="reset">
+        <input style="border: 3px solid black; margin: 10px; padding:10px; cursor: pointer;" type="submit" value="Register">
+
+    </form>
+    
+</body>
+</html>
