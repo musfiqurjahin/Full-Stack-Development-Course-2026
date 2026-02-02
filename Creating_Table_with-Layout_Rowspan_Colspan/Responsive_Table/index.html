@@ -4,14 +4,124 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive Table creation</title>
+
+    <style>
+        table{
+            width: 100%;
+            margin: 20px 0;
+            border-collapse: collapse;
+        }
+        th,td{
+            border: solid #dddddd;
+            text-align: left;
+            padding: 10px;
+        }
+        thead{
+            background-color: #00ff1a62;
+        }
+        tr:nth-child(even){
+            background-color: #f2f2f2;
+
+        }
+
+        caption{
+            margin: 20px 0;
+            color: red;
+        }
+
+
+        /*Media quries*/
+        @media screen and (max-width: 600px) {
+            table,thead,tbody,tr,th,td{
+                display: block;
+            }
+            
+        }
+    </style>
 </head>
 <body>
 
     <h1>Responsive Table:</h1>
 
     <table>
-        <thead></thead>
-        <tbody></tbody>
+        <caption>Business data</caption>
+        <thead>
+            <tr>
+                <th>Month</th>
+                <th>Sales</th>
+                <th>Profit</th>
+            </tr>
+        </thead>
+
+
+        <tbody>
+            <tr>
+                <td>January</td>
+                <td>$10000</td>
+                <td>$1000</td>
+            </tr>
+
+            <tr>
+                <td>February</td>
+                <td>$18900</td>
+                <td>$5000</td>
+            </tr>
+
+            <tr>
+                <td>March</td>
+                <td>$105600</td>
+                <td>$87000</td>
+
+            </tr>
+
+            <tr>
+                <td>April</td>
+                <td>$155678</td>
+                <td>$105677</td>
+            </tr>
+
+            <tr>
+                <td>June</td>
+                <td>$155678</td>
+                <td>$105677</td>
+            </tr>
+            
+            <tr>
+                <td>July</td>
+                <td>$155678</td>
+                <td>$105677</td>
+            </tr>
+
+            <tr>
+                <td>August</td>
+                <td>$155678</td>
+                <td>$105677</td>
+            </tr>
+
+            <tr>
+                <td>September</td>
+                <td>$155678</td>
+                <td>$105677</td>
+            </tr>
+
+            <tr>
+                <td>October</td>
+                <td>$155678</td>
+                <td>$105677</td>
+            </tr>
+
+            <tr>
+                <td>November</td>
+                <td>$155678</td>
+                <td>$105677</td>
+            </tr>
+
+            <tr>
+                <td>December</td>
+                <td>$155678</td>
+                <td>$105677</td>
+            </tr>
+        </tbody>
     </table>
 
     
