@@ -7,26 +7,18 @@
     <title>Advanced Form Elements</title>
 
     <style>
-        body {
+        /** body {
             background-color: black;
             color: white;
-        }
+        }*/
 
 
         label,
         textarea,
-        input,
         select,
         option {
             display: block;
             margin: 10px 0;
-        }
-
-        div {
-            display: grid;
-            place-items: center;
-            /* vertical + horizontal */
-
         }
     </style>
 </head>
@@ -37,19 +29,20 @@
 
     <!-- Contact Form -->
     <div>
-        <h2>Contact form:</h2>
+        <form>
+            <h2>Contact form:</h2>
 
-        <label for="name">Name:</label>
-        <input type="text" name="name" id="name" placeholder="Enter your name here">
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" placeholder="Enter your name here">
 
-        <label for="email">Email:</label>
-        <input type="email" name="email" id="email" placeholder="Enter your email here">
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="Enter your email here">
 
-        <label for="message">Write message:</label>
-        <textarea name="message" id="message" placeholder="Enter your message here" rows="5" cols="25"></textarea>
+            <label for="message">Write message:</label>
+            <textarea name="message" id="message" placeholder="Enter your message here" rows="5" cols="25"></textarea>
 
-        <input type="submit" value="Submit">
-
+            <input type="submit" value="Submit">
+        </form>
     </div>
     <div style="height: 100px;"></div>
 
@@ -71,10 +64,87 @@
     <div style="height: 50px;"></div>
     <!--Radio buttons and Checkbox-->
     <div>
-        <h2 style="text-decoration: underline;">Radio butons and checkbox:</h2>
 
+        <h2 style="text-decoration: underline;">Radio butons and checkbox:</h2>
+        <form><label for="">Gender:</label>
+            <label>
+                <input type="radio" name="gender" id="male" value="male">Male
+            </label>
+
+            <label>
+                <input type="radio" name="gender" id="female" value="female">Female
+            </label>
+        </form>
+
+        <h3>Select your desired color</h3>
+        <form>
+            <label>
+                <input type="radio" name="color" value="black">Black
+            </label>
+            <label>
+                <input type="radio" name="color" value="green">Green
+            </label>
+            <label>
+                <input type="radio" name="color" value="pink">Pink
+            </label>
+            <label>
+                <input type="radio" name="color" value="yellow">Yellow
+            </label>
+            <label>
+                <input type="radio" name="color" value="red">Red
+            </label>
+            <label>
+                <input type="radio" name="color" value="white">White
+            </label>
+            <label>
+                <input type="radio" name="color" value="transperant">Transperent
+            </label>
+            <label>
+                <input type="radio" name="color" value="blue">Blue
+            </label>
+        </form>
     </div>
 
+
+    <!--Checkbox-->
+    <div>
+        <h3>Select your Skills:</h3>
+        <form>
+            <label>
+                <input type="checkbox" name="skill" id="html">HTML
+            </label>
+            <label>
+                <input type="checkbox" name="skill" id="css">CSS
+            </label>
+            <label>
+                <input type="checkbox" name="skill" id="JavaScript">JavaScript
+            </label>
+            <label>
+                <input type="checkbox" name="skill" value="python">Python
+            </label>
+            <label>
+                <input type="checkbox" name="skill" value="typescript">Typescript
+            </label>
+            <label>
+                <input type="checkbox" name="skill" value="figma">Figma
+            </label>
+            <label>
+                <input type="checkbox" name="skill" value="laravel">Laravel
+            </label>
+            <label>
+                <input type="checkbox" name="skill" value="bootstrap">BootStraop
+            </label>
+            <label>
+                <input type="checkbox" name="skill" value="nextjs">Next.js
+            </label>
+            <label>
+                <input type="checkbox" name="skill" value="react">React
+            </label>
+            <label>
+                <input type="checkbox" name="skill" value="nodejs">Node.js
+            </label>
+        </form>
+    </div>
 </body>
 
 </html>
