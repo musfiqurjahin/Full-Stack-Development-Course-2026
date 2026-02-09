@@ -1,0 +1,147 @@
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+        }
+        
+        body {
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+            min-height: 100vh;
+            color: #f1f5f9;
+        }
+        
+        .counter {
+            position: fixed;
+            top: 15px;
+            right: 15px;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            padding: 8px 12px;
+            border-radius: 6px;
+            font-size: 14px;
+            color: #60a5fa;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+            z-index: 100;
+        }
+        
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 100px 20px 40px;
+        }
+        
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background: rgba(15, 23, 42, 0.98);
+            backdrop-filter: blur(15px);
+            padding: 15px 20px;
+            z-index: 99;
+            text-align: center;
+            border-bottom: 2px solid rgba(96, 165, 250, 0.3);
+        }
+        
+        h1 {
+            font-size: 1.8rem;
+            color: #60a5fa;
+            margin-bottom: 4px;
+        }
+        
+        .subtitle {
+            font-size: 0.85rem;
+            color: #94a3b8;
+        }
+        
+        nav {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        
+        .nav-btn {
+            display: block;
+            border-radius: 10px;
+            padding: 16px 24px;
+            text-decoration: none;
+            font-size: 1rem;
+            font-weight: 600;
+            text-align: center;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+            border: 2px solid rgba(255, 255, 255, 0.1);
+            color: white;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .nav-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
+            padding-right: 50px;
+        }
+        
+        .nav-btn::after {
+            content: '\f35d';
+            font-family: 'Font Awesome 6 Free';
+            font-weight: 900;
+            position: absolute;
+            right: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+            opacity: 0;
+            transition: all 0.3s ease;
+        }
+        
+        .nav-btn:hover::after {
+            opacity: 1;
+            right: 18px;
+        }
+        
+        footer {
+            margin-top: 30px;
+            color: #64748b;
+            font-size: 0.85rem;
+            text-align: center;
+            padding: 15px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                padding: 90px 20px 30px;
+            }
+            
+            h1 {
+                font-size: 1.6rem;
+            }
+            
+            .nav-btn {
+                padding: 14px 20px;
+            }
+            
+            .nav-btn:hover {
+                padding-right: 45px;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .container {
+                padding: 85px 15px 20px;
+            }
+            
+            h1 {
+                font-size: 1.4rem;
+            }
+            
+            .nav-btn {
+                padding: 12px 18px;
+            }
+            
+            .nav-btn:hover {
+                padding-right: 40px;
+            }
+        }
