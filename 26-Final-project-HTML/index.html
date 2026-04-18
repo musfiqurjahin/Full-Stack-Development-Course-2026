@@ -1,0 +1,301 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Musfiqur Jahin || Portfolio</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: #f8fafc;
+      color: #1e293b;
+      line-height: 1.6;
+    }
+
+    /* Header */
+    header {
+      background: #ffffff;
+      padding: 15px 0;
+      position: sticky;
+      top: 0;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    }
+
+    nav ul {
+      display: flex;
+      justify-content: center;
+      list-style: none;
+    }
+
+    nav ul li {
+      margin: 0 15px;
+    }
+
+    nav ul li a {
+      color: #1e293b;
+      text-decoration: none;
+      font-weight: 500;
+      transition: 0.3s;
+    }
+
+    nav ul li a:hover {
+      color: #0ea5e9;
+    }
+
+    /* Sections */
+    section {
+      padding: 60px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    /* Headings */
+    h1,
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      color: #0ea5e9;
+    }
+
+    h2 {
+      color: #16a34a;
+    }
+
+    /* Hero */
+    #home {
+      text-align: center;
+    }
+
+    #home img {
+      width: 150px;
+      margin-top: 20px;
+      border-radius: 50%;
+      border: 3px solid #0ea5e9;
+    }
+
+    /* About */
+    blockquote {
+      margin-top: 15px;
+      padding: 10px;
+      border-left: 4px solid #16a34a;
+      font-style: italic;
+      color: #64748b;
+      background: #f1f5f9;
+    }
+
+    /* Table */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+      background: #ffffff;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+      border-radius: 8px;
+      overflow: hidden;
+    }
+
+    th,
+    td {
+      border: 1px solid #e2e8f0;
+      padding: 12px;
+      text-align: center;
+    }
+
+    th {
+      background: #f1f5f9;
+    }
+
+    td a {
+      color: #0ea5e9;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    /* Form */
+    form {
+      max-width: 500px;
+      margin: auto;
+      background: #ffffff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    }
+
+    form div {
+      margin-bottom: 15px;
+    }
+
+    input,
+    textarea {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #cbd5f5;
+      border-radius: 5px;
+      outline: none;
+    }
+
+    input:focus,
+    textarea:focus {
+      border-color: #0ea5e9;
+    }
+
+    button {
+      width: 100%;
+      padding: 10px;
+      border: none;
+      background: #0ea5e9;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+      border-radius: 5px;
+      transition: 0.3s;
+    }
+
+    button:hover {
+      background: #0284c7;
+    }
+
+    /* Footer */
+    footer {
+      background: #ffffff;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+      border-top: 1px solid #e2e8f0;
+    }
+
+    footer a {
+      color: #0ea5e9;
+      text-decoration: none;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <section id="home">
+      <h1>Welcome to my Portfolio</h1>
+      <p>Hello, I'm Jahin — a passionate Developer.</p>
+      <img src="./assets/Avatar/man.png" alt="Avatar">
+    </section>
+
+    <section id="about">
+      <h2>About</h2>
+      <article>
+        <h3>Web Developer</h3>
+        <p>
+          I build modern, responsive, and user-friendly websites with clean design and efficient code.
+        </p>
+        <blockquote>Dream BIG, Work Hard — Myself</blockquote>
+      </article>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <table>
+        <tr>
+          <th>Project Name</th>
+          <th>Description</th>
+          <th>Link</th>
+        </tr>
+
+        <tr>
+          <td>Project-1</td>
+          <td>MERN stack E-commerce website</td>
+          <td><a href="#">View</a></td>
+        </tr>
+
+        <tr>
+          <td>Project-2</td>
+          <td>Portfolio Website</td>
+          <td><a href="#">View</a></td>
+        </tr>
+
+        <tr>
+          <td>Project-3</td>
+          <td>Landing Page</td>
+          <td><a href="#">View</a></td>
+        </tr>
+
+        <tr>
+          <td>Project-4</td>
+          <td>Blog Website</td>
+          <td><a href="#">View</a></td>
+        </tr>
+
+        <tr>
+          <td>Project-5</td>
+          <td>Dashboard UI</td>
+          <td><a href="#">View</a></td>
+        </tr>
+
+      </table>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form>
+        <div>
+          <label>Name:</label>
+          <input type="text">
+        </div>
+
+        <div>
+          <label>Email:</label>
+          <input type="email">
+        </div>
+
+        <div>
+          <label>Message:</label>
+          <textarea rows="4"></textarea>
+        </div>
+
+        <div>
+          <button type="submit">Submit Message</button>
+        </div>
+      </form>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Musfiqur Jahin. All rights reserved.</p>
+    <p>
+      <a href="#">GitHub</a> |
+      <a href="#">LinkedIn</a> |
+      <a href="#">X</a>
+    </p>
+  </footer>
+
+</body>
+
+</html>
